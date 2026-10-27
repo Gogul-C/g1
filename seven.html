@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+</head>
+<body style="height: 1500px; width: 1800px;">
+  <header class="site-header bg-secondary" style=" height: 35px;">
+    <div class="header-top">
+      <div class=" flex-gap">
+        <div class="language-selector" style="margin-left: 60px;">
+          <img src="{% static 'pic/twitter.png' %}" alt="" width="30" height="28">
+          <img src="{% static 'pic/instagram.png' %}" alt="" width="30" height="28  ">
+          <img src="{% static 'pic/facebook.png' %}" alt="" width="30" height="28">
+          <img src="{% static 'pic/youtube.png' %}" alt="" width="30" height="36  ">
+          <img src="{% static 'pic/social.png' %}" alt="" width="30" height="35">
+          <img src="{% static 'pic/linkedin-logo.png' %}" alt="" width="30" height="30">
+        <span class="meta-item location " style="margin-left: 150px; font-weight: bold;">Chennai, OMR,600 028</span>
+        <span class="meta-item date-time" id="current-datetime" style="margin-left: 150px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Mon-Fri 7:00AM-6:00PM</span>
+        <a href="tel:+18005550199" class="utility-link " style="margin-left: 100px;">Ph:91+ 9500184069</a>
+        <a href="#login" class="utility-link login-btn
+         " style="margin-left: 250px;">Log In</a>
+        <a href="#contact" class="utility-link login-btn" style="margin-left: 30px; margin-right: 60px;">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info" style="width: 1800px; margin-bottom: 20px;  "> 
+  <div class="container-fluid" style="display: flex;">
+    <img src="{% static 'pic/ca.png' %}" alt="" width="55" height="55" style="padding-right: 0%; margin-left: 10px; border-radius: 25%;">
+    <h1 class="navbar-brand" href="#" style="margin-left: 10px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: xx-large;">Creative Agency</h1>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <b class="nav-link active" aria-current="page" href="#"  style="margin-left: 80px; margin-right: 20px;">Home</b>
+        </li>
+        <li class="nav-item">
+          <b class="nav-link" href="#" style="margin-left: 10px; margin-right: 10px;">blog</b>
+        </li>
+        <li class="nav-item">
+          <b class="nav-link" href="#" style="margin-left: 20px; margin-right: 20px;">Page</b>
+        </li>
+        <li class="nav-item">
+          <b class="nav-link" href="#" style="margin-left: 20px; margin-right: 20px;">Dashbord</b>
+        </li>
+        <li class="nav-item">
+          <b class="nav-link" href="#" style="margin-left: 20px; margin-right: 20px;">Pages</b>
+        </li>
+        <li class="nav-item">
+          <b class="nav-link" href="#" style="margin-left: 20px; margin-right: 20px;">Services</b>
+        </li>
+        <li class="nav-item">
+          <b class="nav-link" href="#" style="margin-left: 20px; margin-right: 20px;">Team</b>
+        </li>
+        <li class="nav-item">
+          <b class="nav-link" href="#" style="margin-left: 20px; margin-right: 30px;">Contact</b>
+        </li>
+        <li class="nav-item bo ">
+          <b class="nav-link" href="#" style="margin-left: 300px; margin-right: 20px;background-color: yellow; width: 90px; border-radius: 15px 15px 15px 15px;">Buy Now</b>
+        </li>
+      <form class="d-flex" style="margin-left: 0px; margin-right: 30px;" >
+        <input type="search" name="q" placeholder="🔍" aria-label="Search site" style="width: 100px;  border-radius: 15px 15px 15px 15px;">
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="card text-bg-dark" style="margin-top: -20px;">
+  <img src="{% static 'pic/holyshit.jpg' %}" class="card-img" alt="..." style="opacity: 0.7; ">
+  <div class="card-img-overlay" style="margin-top: 340px; margin-left: 100px; width: 600px; height: 280px; border-left: 5px groove red;">
+    <h6 class="card-subtitle mb-2 text-body-secondary" style="font-size: x-large;">We Are Creative</h6>
+     <h5 class="card-title" style="font-size: xx-large;">Creative Digital Agency</h5>
+    <p class="card-text" style="font-size: large; font-weight: bold;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores praesentium excepturi iste fuga, explicabo officiis, recusandae iusto dolorum illum soluta a repellat, neque quis magni repellendus! Facere officia odit aliquid!</p>
+    <a href="#" class="btn btn-primary" style="border-radius: 20px 20px 20px 20px; text-align: center; background-color: red;">Read more</a>
+    <a href="#" class="btn btn-primary" style="border-radius: 20px 20px 20px 20px; margin-left: 10px; text-align: center; background: none; border-color: white;">Request a Consult</a>
+  </div>
+</div>
+<div class="card-group">
+    <div class="card md-3 " style="max-width: 600px; background-color: aquamarine;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="{% static 'pic/shuttle.png' %}" class="img-fluid rounded-start" alt="" style="width: 80px; height:80px ; margin:60px ;">
+        </div>
+        <div class="col-md-8" style="margin-left: -30px; margin-top: 20px;">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card md-3 " style="max-width: 600px; background-color: aqua;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="{% static 'pic/headphone.png' %}" class="img-fluid rounded-start" alt="" style="width: 80px; height:80px ; margin:60px ;">
+        </div>
+        <div class="col-md-8"  style="margin-left: -30px;margin-top: 20px;">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card md-3 " style="max-width: 600px; background-color: tomato;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="{% static 'pic/clock.png' %}" class="img-fluid rounded-start" alt="" style="width: 80px; height:80px ; margin:60px ;">
+        </div>
+        <div class="col-md-8" style="margin-left: -30px;margin-top: 20px;">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+</div>
+</body>
+</html>
